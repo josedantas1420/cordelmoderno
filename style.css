@@ -48,6 +48,7 @@ a:hover{
 
 #e1 , #e3, #e5{
     background-color: white;
+    box-shadow: inset 0px 0px 5px 0px black;
 }
 
 #e2{
@@ -55,23 +56,17 @@ a:hover{
     background-size: cover;
 }
 
-#e2 > p{
-    background-color: rgba(0, 0, 0, 0.539);
-    color: white;
-    display: inline-block;
-    padding: 15px;
-}
-
 #e4{
     background: transparent url(imagens/imagem02.jpg) left center no-repeat fixed;
     background-size: cover;
 }
 
-#e4 > p{
+#e4 > p, #e2 > p{
     background-color: rgba(0, 0, 0, 0.491);
     color: white;
     display: inline-block;
     padding: 15px;
+    text-shadow: 1px 1px 0px black;
 }
 
 #e3 > p{
