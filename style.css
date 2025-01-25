@@ -51,7 +51,7 @@ a:hover{
 }
 
 #e2{
-    background: transparent url(imagem01.jpg) left center no-repeat fixed;
+    background: transparent url(imagens/imagem01.jpg) left center no-repeat fixed;
     background-size: cover;
 }
 
@@ -63,7 +63,7 @@ a:hover{
 }
 
 #e4{
-    background: transparent url(imagem02.jpg) left center no-repeat fixed;
+    background: transparent url(imagens/imagem02.jpg) left center no-repeat fixed;
     background-size: cover;
 }
 
@@ -72,6 +72,14 @@ a:hover{
     color: white;
     display: inline-block;
     padding: 15px;
+}
+
+#e3 > p{
+        padding-bottom: 1em;
+}
+
+#e5 > p{
+    padding-bottom: 1em;
 }
 
 footer{
